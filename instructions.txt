@@ -1,0 +1,43 @@
+In this exercise, you will learn how the inspect element in browsers work
+to help you improve your programming skills. The inspect element is a browser
+tool that lets you view and edit the DOM and CSS of web content. Any edits
+you will make will only appear on your personal screen, and last until you exit out.
+
+
+There is a sample plain top page and try to experiment some of the panels in the inspect element tool.
+
+When activating the inspect element window, you must right click from the browser and
+select inspect element.
+
+Let's learn each functions of the inspect element tool:
+
+1. Element:
+ You can see the DOM and CSS in the element functionality.
+ Try to edit the background color of your header to any color you like.
+
+ In element, you can also delete a div. Try deleting one.
+
+2. Console:
+ The console is for checking your javascript codes if there are any errors or warnings.
+
+ In your editor, Try creating a button inside a div and add this one in your script file or script tag:
+<script>
+    document.addEventListener('click', function(event) {
+        console.log("Success!");
+    }, false);
+</script>
+
+the result of that "console.log" shows/displays in the console tab in the inspect element.
+
+3. Sources
+ The sources will show you the hierarchy of your files.
+ Try to navigate each folder and files and compare it to your local files.
+
+4. Network
+ This allows you to inspect resources as they are accessed over the network.
+ Try to browse any site you want and click inspect element. once the tool panel opens up,
+ click to select Network, then press F5 on your keyboard to refresh the page. You will
+ notice that the timeline will begin populating file names in a waterfall list of
+ associated network activities.
+
+
